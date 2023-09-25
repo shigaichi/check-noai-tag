@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    width: 320px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.status {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.status.noai {
+    background-color: #ff4b4b;
+    color: #fff;
+}
+
+.status.allowed {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.description{
+    text-align: start
+}
